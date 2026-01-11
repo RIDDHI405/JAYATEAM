@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #00c6ff, #0072ff, #00ff99);
+}
+
+.container {
+  padding: 20px;
+  color: white;
+}
+
+.header {
+  text-align: center;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+
+.about, .contacts, .form {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #ffcc00;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ffaa00;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+}
